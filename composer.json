@@ -1,11 +1,16 @@
 {
-    "name": "j42/laravel-firebase",
+    "name": "lucasvieirawerner/laravel-firebase",
     "description": "A Firebase port for Laravel (4.2+)",
     "authors": [
         {
             "name": "Julian Aceves",
             "email": "j@j42.me",
             "homepage": "https://j42.me"
+        }
+         {
+            "name": "Lucas Vieira Werner",
+            "email": "contact@lucasvieirawerner.com",
+            "homepage": "https://lucasvieirawerner.com"
         }
     ],
     "repositories": [
