@@ -12,7 +12,7 @@ Add the following line to your `composer.json` and run composer update:
 
 	{
 	  "require": {
-	    "lucasvieirawerner/laravel-firebase": "^0.4.0"
+	    "lucasvieirawerner/laravel-firebase": "dev-master"
 	  }
 	}
 
