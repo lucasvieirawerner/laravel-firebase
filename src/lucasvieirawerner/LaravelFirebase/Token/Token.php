@@ -65,7 +65,7 @@ class Token implements TokenInterface {
 							$claims[$code] = $value;
 							break;
 						case 'object':
-							if ($value instanceOf \DateTime) $claims[$code] = $value->getTimestamp(); else $this->error(403);
+							if ($value instanceOf \DateTime) $claims[$code] = $value->getTimestamp(); else static::error(403);;
 							break;
 						default:
 							static::error(403);
