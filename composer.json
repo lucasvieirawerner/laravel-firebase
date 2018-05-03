@@ -1,40 +1,40 @@
 {
-    "name": "lucasvieirawerner/laravel-firebase",
-    "description": "A Firebase port for Laravel (4.2+)",
-    "authors": [
-        {
-            "name": "Julian Aceves",
-            "email": "j@j42.me",
-            "homepage": "https://j42.me"
-        },
-        {
-            "name": "Lucas Vieira Werner",
-            "email": "contact@lucasvieirawerner.com",
-            "homepage": "https://lucasvieirawerner.com"
-        }
+  "name": "lucasvieirawerner/laravel-firebase",
+  "description": "A Firebase port for Laravel (4.2+)",
+  "authors": [
+    {
+      "name": "Julian Aceves",
+      "email": "j@j42.me",
+      "homepage": "https://j42.me"
+    },
+    {
+      "name": "Lucas Vieira Werner",
+      "email": "contact@lucasvieirawerner.com",
+      "homepage": "https://lucasvieirawerner.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/firebase/php-jwt"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "guzzlehttp/guzzle": "^6.3",
+    "firebase/php-jwt": "@dev"
+  },
+  "autoload": {
+    "classmap": [
+      "src/lucasvieirawerner"
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/firebase/php-jwt"
-        }
-    ],
-    "require": {
-        "php": ">=5.4.0",
-        "guzzlehttp/guzzle": "6.3.*",
-        "firebase/php-jwt": "@dev"
-    },
-    "autoload": {
-        "classmap": [
-            "src/lucasvieirawerner"
-        ],
-        "psr-0": {
-            "lucasvieirawerner\\LaravelFirebase": "src/lucasvieirawerner/LaravelFirebase"
-        }
-    },
-    "config": {
-        "preferred-install": "dist"
-    },
-    "minimum-stability": "stable",
-    "prefer-stable": true
+    "psr-0": {
+      "lucasvieirawerner\\LaravelFirebase": "src/lucasvieirawerner/LaravelFirebase"
+    }
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
 }
