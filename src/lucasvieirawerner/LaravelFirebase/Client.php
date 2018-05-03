@@ -1,4 +1,4 @@
-<?php namespace J42\LaravelFirebase;
+<?php namespace lucasvieirawerner\LaravelFirebase;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;

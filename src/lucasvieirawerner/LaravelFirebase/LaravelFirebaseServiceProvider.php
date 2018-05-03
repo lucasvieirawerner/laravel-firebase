@@ -1,4 +1,4 @@
-<?php namespace J42\LaravelFirebase;
+<?php namespace lucasvieirawerner\LaravelFirebase;
 
 use Event;
 use Illuminate\Support\ServiceProvider;

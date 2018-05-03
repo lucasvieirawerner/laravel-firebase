@@ -6,6 +6,11 @@
             "name": "Julian Aceves",
             "email": "j@j42.me",
             "homepage": "https://j42.me"
+        },
+        {
+            "name": "Lucas Vieira Werner",
+            "email": "contact@lucasvieirawerner.com",
+            "homepage": "https://lucasvieirawerner.com"
         }
     ],
     "repositories": [
@@ -21,10 +26,10 @@
     },
     "autoload": {
         "classmap": [
-            "src/j42"
+            "src/lucasvieirawerner"
         ],
         "psr-0": {
-            "J42\\LaravelFirebase": "src/j42/LaravelFirebase"
+            "lucasvieirawerner\\LaravelFirebase": "src/lucasvieirawerner/LaravelFirebase"
         }
     },
     "config": {

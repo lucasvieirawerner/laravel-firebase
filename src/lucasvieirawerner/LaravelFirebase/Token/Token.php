@@ -1,4 +1,4 @@
-<?php namespace J42\LaravelFirebase;
+<?php namespace lucasvieirawerner\LaravelFirebase;
 
 class Token implements TokenInterface {
 
