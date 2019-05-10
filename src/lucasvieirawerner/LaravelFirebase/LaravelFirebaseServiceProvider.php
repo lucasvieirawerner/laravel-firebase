@@ -112,7 +112,7 @@ class LaravelFirebaseServiceProvider extends ServiceProvider {
 	 * @return void
 	 */
 	private function delete($obj) {
-
+		try {
 		$sync = (!empty(config('firebase')))
 				 ? config('firebase.sync')
 				 : config('database.connections.firebase.sync');	// `sync` by Default (config)?
@@ -123,6 +123,8 @@ class LaravelFirebaseServiceProvider extends ServiceProvider {
 		if ($sync !== false || !empty($obj->firebase)) {
 			\Firebase::delete('/'.$path.'/'.$id);
 		}
+		} catch (\Exception $e) {
+        	}
 	}
 
 
