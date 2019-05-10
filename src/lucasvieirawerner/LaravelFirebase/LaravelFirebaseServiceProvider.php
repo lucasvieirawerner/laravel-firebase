@@ -77,7 +77,7 @@ class LaravelFirebaseServiceProvider extends ServiceProvider {
 	 * @return void
 	 */
 	private function sync($obj) {
-
+		try {
 		$sync = (!empty(config('firebase')))
 				 ? config('firebase.sync')
 				 : config('database.connections.firebase.sync');	// `sync` by Default (config)?
@@ -101,6 +101,8 @@ class LaravelFirebaseServiceProvider extends ServiceProvider {
 		}
 
 		return true;
+		} catch (\Exception $e) {
+        	}
 	}
 
 
